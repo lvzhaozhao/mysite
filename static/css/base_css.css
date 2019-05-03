@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*!important 强制设置有限权限*/
+    margin-top: 70px!important;
+}
+
+ul {
+    list-style-type: none!important;
+}
+
+ul.navbar-right {
+    margin-right: 0;
+}
