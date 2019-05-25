@@ -27,6 +27,7 @@ urlpatterns = [
     path('comment/', include('comment.urls'), name='comment'),
     path('likes/', include('likes.urls'), name='likes'),
     path('user/', include('user.urls')),
+    path('search/', include('haystack.urls'))
 ]
 
 # 加载media路径下的图片 配置

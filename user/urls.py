@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import login, register, login_for_medal, logout, user_info, change_nickname, bind_email, send_verification_code, change_password, forgot_password
+from .views import login, register, login_for_medal, logout, user_info, change_nickname, bind_email, change_password, send_verification_code, forgot_password
 
 
 urlpatterns = [
